@@ -4,4 +4,4 @@ Group A: Killian Vetter, Daman Yang, and Jon Grunua
 
 Group B: Shawn Mustufa, Luke Cowan, Susan Wang, and Alex Allahar
 
-Group C: Shawn Kim, Eddie Bae, and Mitch Owen
+Group C: Sean Kim, Eddie Bae, and Mitch Owen
