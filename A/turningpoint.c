@@ -78,49 +78,5 @@ task main()
 			motor[rightMotor1] = 0;
 			motor[rightMotor2] = 0;
 		}
-		// Blue right autonomous (doesn't work)
-		if (vexRT[Btn7D]) {
-			motor[leftMotor1] = 255;
-			motor[leftMotor2] = 255;
-			motor[rightMotor1] = 255;
-			motor[rightMotor2] = 255;
-			delay (1000);
-			motor[leftLift] = 255;
-			motor[rightLift] = 255;
-			delay (1300);
-			motor[leftLift] = 0;
-			motor[rightLift] = 0;
-			motor[leftMotor1] = -255;
-			motor[leftMotor2] = -255;
-			motor[rightMotor1] = -255;
-			motor[rightMotor2] = -255;
-			delay(1000);
-			motor[rightMotor1] = 255;
-			motor[rightMotor2] = 255;
-			delay(700);
-			motor[leftMotor1] = 255;
-			motor[leftMotor2] = 255;
-			motor[rightMotor1] = 255;
-			motor[rightMotor2] = 255;
-			delay(1500);
-			motor[leftMotor1] = 0;
-			motor[leftMotor2] = 0;
-			motor[rightMotor1] = 0;
-			motor[rightMotor2] = 0;
-			motor[leftLift] = -255;
-			motor[rightLift] = -255;
-			delay (1300);
-			motor[leftLift] = 0;
-			motor[rightLift] = 0;
-			motor[leftMotor1] = 255;
-			motor[leftMotor2] = 255;
-			motor[rightMotor1] = 255;
-			motor[rightMotor2] = 255;
-			delay (1250);
-			motor[leftMotor1] = 0;
-			motor[leftMotor2] = 0;
-			motor[rightMotor1] = 0;
-			motor[rightMotor2] = 0;
-		}
 	}
 }
