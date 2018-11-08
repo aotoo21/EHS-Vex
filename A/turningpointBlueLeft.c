@@ -4,7 +4,7 @@
 #pragma config(Motor,  port5,           rightMotor1,   tmotorVex393_MC29, openLoop, reversed)
 #pragma config(Motor,  port6,           leftLift,      tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port7,           rightLift,     tmotorVex393_MC29, openLoop, reversed)
-// CLIMBING THE RAMP DOESN'T WORK
+
 task main()
 {
 	motor[leftMotor1] = 255;
@@ -26,7 +26,7 @@ task main()
 	motor[leftMotor2] = 255;
 	motor[rightMotor1] = 255;
 	motor[rightMotor2] = 255;
-	delay (250);
+	delay (150);
 	motor[leftMotor1] = 0;
 	motor[leftMotor2] = 0;
 	motor[rightMotor1] = 0;
