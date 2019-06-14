@@ -55,9 +55,47 @@ void pre_auton()
 /*  You must modify the code to add your own robot specific commands here.   */
 /*---------------------------------------------------------------------------*/
 
+//Blue Left AUTO
 task autonomous()
 {
-	//AUTOCODE GOES HERE
+	motor[leftMotor1] = 255;
+	motor[leftMotor2] = 255;
+	motor[rightMotor1] = 255;
+	motor[rightMotor2] = 255;
+	delay (1800);
+	motor[leftMotor1] = -255;
+	motor[leftMotor2] = -255;
+	motor[rightMotor1] = -255;
+	motor[rightMotor2] = -255;
+	delay (500);
+	motor[leftMotor1] = 255;
+	motor[leftMotor2] = 255;
+	motor[rightMotor1] = -255;
+	motor[rightMotor2] = -255;
+	delay(400);
+	motor[leftMotor1] = 255;
+	motor[leftMotor2] = 255;
+	motor[rightMotor1] = 255;
+	motor[rightMotor2] = 255;
+	delay (150);
+	motor[leftMotor1] = 0;
+	motor[leftMotor2] = 0;
+	motor[rightMotor1] = 0;
+	motor[rightMotor2] = 0;
+	motor[leftLift] = -255;
+	motor[rightLift] = -255;
+	delay (1000);
+	motor[leftLift] = 0;
+	motor[rightLift] = 0;
+	motor[leftMotor1] = 255;
+	motor[leftMotor2] = 255;
+	motor[rightMotor1] = 255;
+	motor[rightMotor2] = 255;
+	delay (1200);
+	motor[leftMotor1] = 0;
+	motor[leftMotor2] = 0;
+	motor[rightMotor1] = 0;
+	motor[rightMotor2] = 0;
 }
 
 /*---------------------------------------------------------------------------*/
